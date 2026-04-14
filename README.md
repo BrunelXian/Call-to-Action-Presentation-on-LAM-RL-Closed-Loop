@@ -1,39 +1,44 @@
-# Call to Action: AI-Driven Closed-Loop Optimisation for LAM
+# 面向 TWI 的行动型汇报材料
 
-This repository is a compact package prepared for personal review at TWI. It brings together the presentation deck, proposal, and selected background research behind one central argument:
+本仓库用于集中存放一套面向 `TWI` 的个人汇报材料，包括演示文稿、研究计划书，以及为形成该叙事所做的背景调查与分析笔记。
 
-**the next high-value step for laser additive manufacturing is not more monitoring alone, but adaptive process stabilisation.**
+本仓库希望传达的核心判断是：
 
-## Executive Focus
+**对于激光增材制造（LAM）而言，下一步真正高价值的方向，不只是继续做监测与预测，而是走向面向工业落地的自适应过程稳定化。**
 
-The two most important background questions in this repository are:
+## 核心阅读重点
 
-1. **What has TWI been investing in over the last two years?**
-2. **What do TWI's current AI collaborations with universities reveal about the real technical gap?**
+本仓库最重要的两条背景主线是：
 
-These two questions matter because this proposal is not positioned as a purely academic AI project. It is positioned as a practical route toward a new industrial service capability for TWI.
+1. **TWI 近两年的投资意向与技术布局**
+2. **TWI 与其他高校在 AI 方向的合作现状，以及其中仍然存在的技术缺口**
 
-## What This Repository Contains
+之所以把这两点放在最前面，是因为本项目并不是单纯从“学术上 AI 很先进”出发，而是试图回答一个更现实的问题：
 
-This repository currently brings together three layers of material:
+**为什么这件事值得 TWI 关注，并且为什么它有机会发展为 TWI 的新型工业服务能力。**
+
+## 仓库内容
+
+本仓库目前包含三层材料：
 
 1. **Presentation**
-   The call-to-action slide deck prepared for discussion with TWI.
+   面向 TWI 的 call-to-action 演示文稿。
 2. **Proposal**
-   The supporting proposal that explains the technical direction, development logic, and industrial relevance.
+   支撑该方向的研究计划书与技术说明。
 3. **Background Research**
-   The evidence base used to shape the narrative, including TWI strategy, financial priorities, current AI collaborations, and pitch positioning logic.
+   用于支撑叙事和判断的背景资料，包括 TWI 的战略、财务结构、AI 合作现状以及项目定位逻辑。
 
-## Start Here
+## 建议阅读顺序
 
-If you only read a few items, the intended reading order is:
+如果只看最关键的内容，建议按如下顺序阅读：
 
-1. **Presentation deck**
-2. **Proposal**
-3. **Background research on TWI investment direction**
-4. **Background research on TWI AI collaborations**
+1. `Presentation to TWI v8.0.pptx`
+2. `EPSRC AI-LAM Proposal 4th Draft.docx`
+3. `research/01-twi-investment-and-strategy/`
+4. `research/02-twi-ai-collaborations/`
+5. `research/03-pitch-positioning/`
 
-Current repository navigation:
+当前仓库导航如下：
 
 - `Presentation to TWI v8.0.pptx`
 - `EPSRC AI-LAM Proposal 4th Draft.docx`
@@ -42,56 +47,60 @@ Current repository navigation:
 - `research/03-pitch-positioning/`
 - `archive/`
 
-## Key Background Themes
+## 重点背景判断
 
-### 1. TWI Investment Direction
+### 1. TWI 的投资意向与战略偏好
 
-The working interpretation in this repository is that TWI is more likely to support technologies that:
+本仓库中的相关材料表明，TWI 更可能重视那些具备以下特点的技术方向：
 
-- can be translated into **industrial consultancy or member-facing services**
-- solve real manufacturing pain points such as **defect reduction, process stability, and certification risk**
-- upgrade existing capability in a **low-risk, industrially credible** way
+- 能够转化为 **工业咨询服务** 或 **会员服务能力**
+- 能够回应真实制造痛点，例如 **缺陷率、工艺稳定性、认证周期与成本压力**
+- 能够以 **低风险、可落地、工业可接受** 的方式升级现有能力
 
-The financial logic behind this matters. The strongest publicly visible pattern is that TWI's income is driven mainly by engineering consultancy/projects and training/certification, not by membership fees alone. That makes commercially deployable process optimisation capability more strategically relevant than a purely academic AI demonstration.
+从公开财务结构来看，TWI 的主要收入并不来自会员费本身，而是来自工程咨询、项目服务以及培训与认证业务。因此，如果某一技术方向能够进一步增强其高附加值工程服务能力，那么它对 TWI 的战略意义通常会高于单纯的学术展示型研究。
 
-### 2. TWI AI Collaborations With Universities
+### 2. TWI 与高校 AI 合作的现状及其局限
 
-This repository also tracks TWI's visible AI collaborations and adjacent activity, including:
+本仓库同时整理了 TWI 已公开的一些 AI 合作与相关活动，主要包括：
 
-- AI and machine learning for additive manufacturing monitoring and modelling
-- smart manufacturing projects built around data analysis and manufacturing insight
-- AI for NDT, defect detection, and classification
-- early-stage collaboration around autonomous systems and AI decision systems
+- 面向增材制造的 AI / machine learning 监测与建模
+- 面向智能制造的数据分析与制造洞察
+- 面向无损检测（NDT）的缺陷识别与分类
+- 与高校合作开展的自主系统与 AI 决策相关探索
 
-The key judgement here is not that these collaborations are unimportant. It is that most disclosed work still sits at the level of:
+这些工作并非没有价值。相反，它们说明 TWI 已经意识到 AI 在制造中的潜力，并且已经开始布局。
 
-`sensor -> model -> prediction / classification / insight`
+但从当前公开信息来看，这些工作大多仍停留在如下技术链条：
 
-That is useful, but it is still mainly a monitoring and interpretation layer.
+`传感器 -> 模型 -> 预测 / 分类 / 解释`
 
-The technical gap this repository highlights is the next layer:
+这类方法可以提高可见性、辅助分析、改善监测，但其工业价值仍主要集中在“看见问题”“识别问题”“解释信号”这一层。
 
-`sensor -> state estimation -> decision -> safe real-time process adjustment`
+本仓库所强调的关键技术缺口，是更进一步的能力：
 
-In other words, much of the currently visible AI activity appears to focus on neural-network-based signal fitting, defect prediction, or post hoc interpretation. The industrial decision value of that approach is limited unless it is translated into **adaptive optimisation inside a safe process envelope**.
+`传感器 -> 状态估计 -> 决策 -> 安全范围内的实时工艺调整`
 
-This is why the proposal in this repository is framed less as "AI control" and more as:
+换句话说，当前很多已公开的 AI 路线，本质上仍然偏向于用神经网络去拟合信号、做缺陷预测或做事后解释；但如果这些结果无法进入 **自适应优化（adaptive optimisation）** 或 **安全约束下的实时调节**，其对高价值制造流程的决策意义仍然有限。
 
-**adaptive process stabilisation**
+因此，本仓库更倾向于将该方向表述为：
 
-## Positioning Logic
+**adaptive process stabilisation（自适应过程稳定化）**
 
-The core positioning used across these materials is:
+而不是简单地表述成“AI control”。
 
-- **AI should stay light in the narrative**
-- **manufacturing value should stay central**
-- the story should move from **monitoring** to **process understanding** to **adaptive optimisation**
+## 叙事定位
 
-This is important because TWI is more likely to respond to an argument about industrial capability, service value, reliability, and deployment pathway than to an argument about algorithms alone.
+本仓库中的 presentation 与 proposal 采用了以下基本定位：
 
-## Repository Layout
+- **弱化 AI 术语本身，强化制造价值**
+- 叙事重点从 **monitoring** 推进到 **process understanding**，再推进到 **adaptive optimisation**
+- 将该方向包装为 **现有工业能力的增强与升级**，而不是高风险的技术颠覆
 
-The repository is currently organised as:
+这样做的原因很直接：对 TWI 而言，更有说服力的不是“算法本身多先进”，而是这项工作是否能够形成工业能力、服务价值、部署路径和长期战略意义。
+
+## 仓库结构
+
+当前仓库结构如下：
 
 ```text
 /
@@ -105,12 +114,14 @@ The repository is currently organised as:
 `-- archive/
 ```
 
-Folder purpose:
+各部分用途如下：
 
-- the repository root holds the current presentation and proposal drafts
-- `research/` holds background notes grouped by topic
-- `archive/` holds superseded slide narratives and older framing versions
+- 仓库根目录存放当前版本的 presentation 与 proposal
+- `research/` 存放按主题分类的背景调查材料
+- `archive/` 存放已淘汰的叙事版本与历史草稿
 
-## Bottom Line
+## 总结
 
-This repository argues that TWI's visible AI activity is meaningful, but still concentrated around **monitoring, prediction, and inspection**. The opportunity is to move one step further, toward **real-time adaptive optimisation for high-value LAM processes** and to present that move as an industrially credible, commercially relevant capability upgrade.
+本仓库的基本判断是：
+
+TWI 当前可见的 AI 工作已经具有一定基础，但总体上仍主要集中在 **监测、预测与检测** 层面。真正值得进一步推进的方向，是在高价值 LAM 场景中，把这些能力推进到 **实时、自适应、受安全边界约束的工艺优化**，并将其发展为具有工业落地潜力和服务转化价值的新能力。
