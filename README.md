@@ -56,30 +56,34 @@ Ref：
 
 #### 2.1 TWI和 高校AI的合作汇总
 
-关于LAM AI的合作：
+##### 关于LAM AI的合作：
 
-**AMIC（Additive Manufacturing Innovation Centre）** 和 **Lancaster University** 联合建立的研究中心，[Ref](https://www.twi-global.com/innovation-network/centres/innovation-centres/additive-manufacturing-innovation-center "AMIC Ref.")
+1. **AMIC（Additive Manufacturing Innovation Centre）**
 
-目前披露的：
-- Digital Twin driven monitoring
-- AM process modelling 
+和 **Lancaster University** 联合建立的研究中心. 
+   
+目前披露的方向：Digital Twin driven monitoring和 AM process modelling [Ref](https://www.twi-global.com/innovation-network/centres/innovation-centres/additive-manufacturing-innovation-center "AMIC Ref.")
 
-**Applied Artificial Intelligence Innovation Centre** 和 **University of Huddersfield** 合作的研究中心，[Ref](https://www.bindt.org/News/february-2025/university-of-huddersfield-and-twi-partner-on-strategic-rd)
+2. **Applied Artificial Intelligence Innovation Centre**
 
-2025年成立，规划阶段，目标是  Autonomous systems + AI decision systems
+和 **University of Huddersfield** 合作的研究中心
 
-关于其他方向的AI合作：
+2025年成立，规划阶段，目标是  Autonomous systems + AI decision systems. [Ref](https://www.bindt.org/News/february-2025/university-of-huddersfield-and-twi-partner-on-strategic-rd)
+
+3. 关于其他方向的AI合作：
 
 只有无所检测，目前有个课题组就是 AI and Machine Learning in NDT [Ref](https://theweldinginstitute.com/insights/13447592)
 
 技术路线是，对于pipeline： NDT data → ML classifier → defect detection
 
-结论：
+**结论**：
 TWI 已公开的一些 AI 合作与相关活动，主要包括：
 - 面向增材制造的 AI / machine learning 监测与建模
 - 面向智能制造的数据分析与制造洞察
 - 面向无损检测（NDT）的缺陷识别与分类
 它们说明 TWI 已经意识到 AI 在制造中的潜力，并且已经开始布局。
+
+[关于TWI的AI项目的情报汇总.md](research/02-twi-ai-collaborations/关于TWI的AI与增材制造项目的情报汇总.md)
 
 #### 2.2 目前TWI的AI方向的分析与经验吸取
 
@@ -101,6 +105,8 @@ TWI 已公开的一些 AI 合作与相关活动，主要包括：
 
 而不是简单地表述成“AI control”。
 
+[TWI 技术采用逻辑与 Adaptive Optimisation 的定位](research/03-pitch-positioning/TWI 技术采用逻辑与 Adaptive Optimisation 的定位.md)
+
 ### 3. 面向不同对象的术语调整
 
 与Proposal不同，TWI的听众更偏向工业应用：
@@ -110,6 +116,8 @@ TWI 已公开的一些 AI 合作与相关活动，主要包括：
 - 将该方向包装为 **现有工业能力的增强与升级**，而不是高风险的技术颠覆
 
 这样做的原因很直接：对 TWI 而言，更有说服力的不是“算法本身多先进”，而是这项工作是否能够形成工业能力、服务价值、部署路径和长期战略意义。
+
+详细参考：[1](archive/(ARCHIVED) TWI Presentation V7.0.md) - [2](archive/(ARCHIVED) V5.0 关于风险技术的表达.md) - [3](archive/(ARCHIVED) 为什么Presentation to TWI V4.0版本的不好.md) - [4](archive/(ARCHIVED) 关于淘汰V7.0 的想法.md) - 
 
 ---
 
@@ -149,20 +157,11 @@ TWI 已公开的一些 AI 合作与相关活动，主要包括：
 
 这里是一个小尾巴。
 
-# 🟨 正宗老代码
+🟨 正宗老代码
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ 🟥 坚持手写        🟨 拒绝 AI ┃
-┃                              ┃
-┃        🐒 😂                   ┃
-┃     （抱着键盘）               ┃
-┃                              ┃
-┃ 🟦 纯手工   🟥 硬核   🟦 夜编程 ┃
-┃                              ┃
-┃        🔴 0% AI 添加          ┃
-┃                              ┃
-┃ 🟦 是老派的           🟥 无 Bug ┃
-┃                              ┃
-┃ 🟨 从小写代码写到大           ┃
+┃ 🟥 坚持手写┃🟨 拒绝 AI ┃🐒😂（抱着键盘）┃
+┃🟦纯手工 ┃🟥硬核┃ 🟦夜编程 ┃🔴0% AI 添加┃
+┃ 🟦 是老派的┃🟥 无 Bug ┃     ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
