@@ -15,14 +15,14 @@ These two questions matter because this proposal is not positioned as a purely a
 
 ## What This Repository Contains
 
-This repository is intended to host three layers of material:
+This repository currently brings together three layers of material:
 
 1. **Presentation**
    The call-to-action slide deck prepared for discussion with TWI.
 2. **Proposal**
    The supporting proposal that explains the technical direction, development logic, and industrial relevance.
 3. **Background Research**
-   The evidence base used to shape the narrative, including TWI strategy, financial priorities, and current AI activity.
+   The evidence base used to shape the narrative, including TWI strategy, financial priorities, current AI collaborations, and pitch positioning logic.
 
 ## Start Here
 
@@ -32,6 +32,15 @@ If you only read a few items, the intended reading order is:
 2. **Proposal**
 3. **Background research on TWI investment direction**
 4. **Background research on TWI AI collaborations**
+
+Current repository navigation:
+
+- `Presentation to TWI v8.0.pptx`
+- `EPSRC AI-LAM Proposal 4th Draft.docx`
+- `research/01-twi-investment-and-strategy/`
+- `research/02-twi-ai-collaborations/`
+- `research/03-pitch-positioning/`
+- `archive/`
 
 ## Key Background Themes
 
@@ -80,25 +89,27 @@ The core positioning used across these materials is:
 
 This is important because TWI is more likely to respond to an argument about industrial capability, service value, reliability, and deployment pathway than to an argument about algorithms alone.
 
-## Planned Repository Layout
+## Repository Layout
 
-The repository is intended to evolve around the following structure:
+The repository is currently organised as:
 
 ```text
 /
 |-- README.md
-|-- presentation/
-|-- proposal/
+|-- Presentation to TWI v8.0.pptx
+|-- EPSRC AI-LAM Proposal 4th Draft.docx
 |-- research/
+|   |-- 01-twi-investment-and-strategy/
+|   |-- 02-twi-ai-collaborations/
+|   `-- 03-pitch-positioning/
 `-- archive/
 ```
 
-Suggested use of each folder:
+Folder purpose:
 
-- `presentation/` for the slide deck in editable and export formats
-- `proposal/` for the written proposal and related drafts
-- `research/` for background notes on TWI strategy, finance, AI collaborations, and positioning logic
-- `archive/` for superseded slide narratives and older framing versions
+- the repository root holds the current presentation and proposal drafts
+- `research/` holds background notes grouped by topic
+- `archive/` holds superseded slide narratives and older framing versions
 
 ## Bottom Line
 
